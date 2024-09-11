@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
 
-:root:not(nav):not(footer) {
+:root {
     --primary-font: 'Outfit';
     --navbar-height: 100px;
     --navbar-brand-logo-width: 42px;
@@ -25,6 +25,30 @@
     --notion-yellow_background_co: hsl(var(--notion-yellow-h), var(--notion-yellow-s), var(--notion-yellow-l));
 }
 
+html:not(nav):not(footer){
+    --primary-font: 'Outfit';
+    --navbar-height: 100px;
+    --navbar-brand-logo-width: 42px;
+    --container-width: 95%;
+    --navbar-fg-color: #000;
+    --navbar-btn-bg-color: hsl(53, 100%, 50%);
+    --navbar-btn-fg-color: #24231B;
+    --border-radius: 30px;
+    --db-card-bg: transparent;
+    --fg-color-h: 53;
+    --fg-color-s: 14%;
+    --fg-color-l: 12%;
+    --fg-color: hsl(var(--fg-color-h), var(--fg-color-s), var(--fg-color-l));
+    --heading1: calc(var(--heading-font-size) * 2.5);
+    --heading2: calc(var(--heading-font-size) * 1.5);
+    --heading3: calc(var(--heading-font-size) * .834);
+    --notion-yellow-h: 53;
+    --notion-yellow-s: 100%;
+    --notion-yellow-l: 50%;
+    --notion-yellow: hsl(var(--notion-yellow-h), var(--notion-yellow-s), var(--notion-yellow-l));
+    --notion-yellow_background: hsl(var(--notion-yellow-h), var(--notion-yellow-s), var(--notion-yellow-l));
+    --notion-yellow_background_co: hsl(var(--notion-yellow-h), var(--notion-yellow-s), var(--notion-yellow-l));
+}
 /* common styles */
 .notion-title:not(nav):not(footer) {
     display: none;
